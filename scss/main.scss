@@ -186,3 +186,34 @@ h1,h2,h3,h4,h5,h6{
         margin: 0 auto;
     }
 }
+.our-card{
+    width: 100%;
+    display: flex;
+    .card1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+        padding: 30px;
+        h3{
+            font-size: 25px;
+            margin:15px 0px;
+            font-family: $secondaryfont;
+        }
+        p{
+            font-family: $secondaryfont;
+            
+        }
+        .card-image{
+            width: 150px;
+            height: 180px;
+            img{
+            
+                border-radius: 15px;
+            }
+        }
+
+    }
+    
+}

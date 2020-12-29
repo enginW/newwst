@@ -583,4 +583,48 @@ h1, h2, h3, h4, h5, h6 {
   width: 60%;
   margin: 0 auto;
 }
+
+.our-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.our-card .card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid red;
+  padding: 30px;
+}
+
+.our-card .card1 h3 {
+  font-size: 25px;
+  margin: 15px 0px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.our-card .card1 p {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.our-card .card1 .card-image {
+  width: 150px;
+  height: 180px;
+}
+
+.our-card .card1 .card-image img {
+  border-radius: 15px;
+}
 /*# sourceMappingURL=main.css.map */

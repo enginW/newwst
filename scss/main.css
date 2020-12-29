@@ -371,6 +371,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url(../img/back.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/back.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -537,6 +538,7 @@ h1, h2, h3, h4, h5, h6 {
 .our-service {
   background-color: #f8f8f8;
   height: 120vh;
+  padding-bottom: 100px;
 }
 
 .our-service-text {
@@ -620,9 +622,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
+  border-radius: 30px;
   padding: 30px;
-  margin-left: 10px;
+  margin-left: 20px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .our-card .card1 h3 {
@@ -633,6 +637,44 @@ h1, h2, h3, h4, h5, h6 {
 
 .our-card .card1 p {
   font-family: "PT Sans Narrow", sans-serif;
+}
+
+.our-card .card1 .social-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.our-card .card1 .social-card .social-card-items {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.our-card .card1 .social-card .social-card-items a {
+  padding: 15px;
+}
+
+.our-card .card1 .social-card .social-card-items a i {
+  color: grey;
+}
+
+.our-card .card1 .social-card .social-card-items a .fa-facebook:hover {
+  color: #4267B2;
+}
+
+.our-card .card1 .social-card .social-card-items a .fa-linkedin:hover {
+  color: #0072b1;
+}
+
+.our-card .card1 .social-card .social-card-items a .fa-github:hover {
+  color: #6e5494;
 }
 
 .our-card .card1 .card-image {
@@ -647,5 +689,7 @@ h1, h2, h3, h4, h5, h6 {
 .our-card .card1:hover {
   top: 15px;
   background-color: white;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 /*# sourceMappingURL=main.css.map */

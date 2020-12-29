@@ -10,6 +10,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f8f8f8;
+}
 a{
     text-decoration: none;
 }
@@ -146,11 +149,17 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 50%;
     cursor: pointer;
 }
+.our-service{
+    background-color: #f8f8f8;
+    height: 120vh;
+
+}
 .our-service-text{
     text-align: center;
     width: 100%;
     margin: 70px auto;
     h2{
+        padding-top: 25px;
         font-size: 30px;
         letter-spacing: 5px;
         margin-bottom: 20px;
@@ -189,13 +198,18 @@ h1,h2,h3,h4,h5,h6{
 .our-card{
     width: 100%;
     display: flex;
+    justify-content: center;
     .card1{
+        width: 25%;
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border: 1px solid red;
         padding: 30px;
+        margin-left: 10px;
+        
         h3{
             font-size: 25px;
             margin:15px 0px;
@@ -213,7 +227,9 @@ h1,h2,h3,h4,h5,h6{
                 border-radius: 15px;
             }
         }
-
-    }
-    
+        &:hover{
+            top: 15px;
+            background-color: white;
+        }
+    }   
 }

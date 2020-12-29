@@ -351,6 +351,10 @@ template {
           box-sizing: border-box;
 }
 
+body {
+  background-color: #f8f8f8;
+}
+
 a {
   text-decoration: none;
 }
@@ -530,6 +534,11 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+.our-service {
+  background-color: #f8f8f8;
+  height: 120vh;
+}
+
 .our-service-text {
   text-align: center;
   width: 100%;
@@ -537,6 +546,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .our-service-text h2 {
+  padding-top: 25px;
   font-size: 30px;
   letter-spacing: 5px;
   margin-bottom: 20px;
@@ -589,9 +599,14 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .our-card .card1 {
+  width: 25%;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -607,6 +622,7 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   border: 1px solid red;
   padding: 30px;
+  margin-left: 10px;
 }
 
 .our-card .card1 h3 {
@@ -626,5 +642,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .our-card .card1 .card-image img {
   border-radius: 15px;
+}
+
+.our-card .card1:hover {
+  top: 15px;
+  background-color: white;
 }
 /*# sourceMappingURL=main.css.map */

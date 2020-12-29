@@ -33,11 +33,11 @@ h1,h2,h3,h4,h5,h6{
         height: 70px;
         position: relative;
         .logo{
-            position: relative;
+            margin-top: 15px;
             margin-left: 15%;
-            
             img{
-                width: 65%;
+                width: auto;
+                height: 80px;
             }
         }
         .menu{
@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6{
     }
     .line{
         position: absolute;
-        top: 14%;
+        top: 90px;
         width: 100%;
         height: 1px;
         background-color: rgb(80, 77, 77);
@@ -131,4 +131,58 @@ h1,h2,h3,h4,h5,h6{
     height: 100vh;
     position: relative;
     margin: 0 auto;
+}
+.scontrol{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider span{
+    text-indent: -9999px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.our-service-text{
+    text-align: center;
+    width: 100%;
+    margin: 70px auto;
+    h2{
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
+    .our-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:20px;
+        .left-hr{
+            width:60px;
+            height:1px;
+            background-color: dimgray;
+        }
+        a{
+            padding:10px 20px 10px 20px;
+            i{
+                font-size: 25px;
+                color: dimgray;
+            }
+        }
+        .right-hr{
+            width:60px;
+            height:1px;
+            background-color: dimgray;
+        }
+    }
+    p{
+        font-family: $secondaryfont;
+        font-size: 16px;
+        line-height: 30px;
+        width: 60%;
+        margin: 0 auto;
+    }
 }

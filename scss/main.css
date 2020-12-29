@@ -386,12 +386,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #head .headmenu .logo {
-  position: relative;
+  margin-top: 15px;
   margin-left: 15%;
 }
 
 #head .headmenu .logo img {
-  width: 65%;
+  width: auto;
+  height: 80px;
 }
 
 #head .headmenu .menu {
@@ -449,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #head .line {
   position: absolute;
-  top: 14%;
+  top: 90px;
   width: 100%;
   height: 1px;
   background-color: #504d4d;
@@ -506,6 +507,80 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1140px;
   height: 100vh;
   position: relative;
+  margin: 0 auto;
+}
+
+.scontrol {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider span {
+  text-indent: -9999px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.our-service-text {
+  text-align: center;
+  width: 100%;
+  margin: 70px auto;
+}
+
+.our-service-text h2 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.our-service-text .our-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.our-service-text .our-btn .left-hr {
+  width: 60px;
+  height: 1px;
+  background-color: dimgray;
+}
+
+.our-service-text .our-btn a {
+  padding: 10px 20px 10px 20px;
+}
+
+.our-service-text .our-btn a i {
+  font-size: 25px;
+  color: dimgray;
+}
+
+.our-service-text .our-btn .right-hr {
+  width: 60px;
+  height: 1px;
+  background-color: dimgray;
+}
+
+.our-service-text p {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  width: 60%;
   margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */

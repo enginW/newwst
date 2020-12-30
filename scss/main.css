@@ -787,4 +787,124 @@ h1, h2, h3, h4, h5, h6 {
 .content .content-info .info-box:hover .btn {
   display: block;
 }
+
+.jobs {
+  width: 100%;
+  height: 1000px;
+}
+
+.jobs .our-service-text {
+  margin-bottom: 130px;
+}
+
+.jobs .hexa-item-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.jobs .hexa-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: -55px;
+}
+
+.jobs .hexa-item {
+  width: 250px;
+  height: 290px;
+  overflow: hidden;
+  margin-left: 20px;
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+}
+
+.jobs .hexa-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.jobs .hexa-item-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.middle {
+  width: 100%;
+  height: 400px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.6))), url(../img/back.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../img/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle .middle-content {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.middle .middle-content h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.middle .middle-content button {
+  width: 120px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.7))), #bd599f;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), #bd599f;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.middle .middle-content button:hover {
+  color: white;
+  -webkit-transition: 600ms all ease;
+  transition: 600ms all ease;
+  border: .3px solid white;
+}
+
+.middle .middle-content button span {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
 /*# sourceMappingURL=main.css.map */

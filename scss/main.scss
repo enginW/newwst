@@ -411,3 +411,92 @@ h1,h2,h3,h4,h5,h6{
         }
     }
 }
+.team{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(214, 212, 212);
+    margin-top: -70px;
+    .our-service-text{
+        padding-top: 60px;
+    }
+    .team-mate{
+        display: flex;
+        justify-content: space-evenly;
+        .team-mate-item{
+            width: 200px;
+            height: 360px;
+            position: relative;
+            img{
+                width: auto;
+                height: auto;
+                object-fit: cover;
+            }
+            .top-item{
+                width: 100%;
+                height: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(10, 69, 88, .6);
+
+                position: absolute;
+                top: 0;
+                a{
+                    color: white;
+                    font-size: 20px;
+                    &:hover{
+                        transform: scale(1.2);
+                        transition:600ms;
+                    }
+                }
+
+            }
+            .bottom-item{
+                width: 100%;
+                height: 60%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                background-color: rgba(52, 167, 206, .9);
+                color: white;
+                position: absolute;
+                bottom:0;
+                h3{
+                    font-family:$secondaryfont;
+                    font-size: 25px;
+                    line-height: 20px;
+                    margin-top: 40px;
+                }
+                .team-bottom-social{
+                    padding: 10px;
+                    margin:20px;
+                    a{
+                        color: wheat;
+                        padding: 10px;
+                        border: 1px solid white;
+                        border-radius: 50%;
+                    }
+                    .tw{
+                        &:hover{
+                            color: #1DA1F2;
+                            border-color: #1DA1F2;
+                            background-color: #e7e3e3;
+                       }
+                    }
+                    .yt{
+                        &:hover{                           
+                            color:#c4302b;
+                            border-color:#c4302b;
+                            background-color: #e7e3e3;
+                        }
+                    }
+                }
+                p{
+                    font-family: $secondaryfont;
+
+                }
+            }
+        }
+    }
+}

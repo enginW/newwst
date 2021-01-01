@@ -512,3 +512,29 @@ h1,h2,h3,h4,h5,h6{
         }
     }
 }
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    .sitefooter{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3{
+            font-family: $secondaryfont;
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0 35px;
+        }
+        a{
+            border:1px solid white;
+            border-radius: 50%;
+            color: white;
+            i{
+                font-size: 30px;
+                padding: 10px;
+            }
+        }
+    }
+}
